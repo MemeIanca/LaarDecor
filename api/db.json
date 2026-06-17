@@ -1,0 +1,539 @@
+{
+  "users": [
+    {
+      "email": "laardecor@decoracao.gmail",
+      "senha": "1234"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "q1",
+      "nome": "Mesa de Cabeceira 1 Gaveta Retrô",
+      "descricao": "Mesa de cabeceira estilo retrô com 1 gaveta e acabamento em madeira natural.",
+      "categorias": [
+        "Quarto",
+        "Móveis"
+      ],
+      "imagens": [
+        "mesa-cabeceira.png"
+      ],
+      "preco": 140.75
+    },
+    {
+      "id": "q2",
+      "nome": "Candelabro com Faixa de Flores e Borboletas",
+      "descricao": "Pingente decorativo com flores e borboletas, perfeito para dar charme ao quarto.",
+      "categorias": [
+        "Quarto",
+        "Decoração"
+      ],
+      "imagens": [
+        "pingente-candelabro.png"
+      ],
+      "preco": 140.27
+    },
+    {
+      "id": "q3",
+      "nome": "Conjunto de Quarto com Guarda-Roupa e Cômoda",
+      "descricao": "Conjunto completo para quarto, com guarda-roupa espaçoso e cômoda combinando.",
+      "categorias": [
+        "Quarto",
+        "Móveis"
+      ],
+      "imagens": [
+        "penteadeira.png"
+      ],
+      "preco": 699.9
+    },
+    {
+      "id": "q4",
+      "nome": "Guarda-Roupa Casal com Espelho",
+      "descricao": "Guarda-roupa de casal moderno com espelho e amplo espaço interno.",
+      "categorias": [
+        "Quarto",
+        "Móveis"
+      ],
+      "imagens": [
+        "guarda-roupa.png"
+      ],
+      "preco": 1949.9
+    },
+    {
+      "id": "q5",
+      "nome": "Kit 3 Quadros Arte Minimalista",
+      "descricao": "Conjunto de três quadros decorativos com arte minimalista em moldura preta.",
+      "categorias": [
+        "Quarto",
+        "Decoração",
+        "Quadros"
+      ],
+      "imagens": [
+        "quadro.png"
+      ],
+      "preco": 149.9
+    },
+    {
+      "id": "q6",
+      "nome": "Penteadeira com 5 Gavetas e Espelho com Cadeira",
+      "descricao": "Penteadeira elegante com espelho grande, cinco gavetas e cadeira inclusa.",
+      "categorias": [
+        "Quarto",
+        "Móveis"
+      ],
+      "imagens": [
+        "penteadeira2.png"
+      ],
+      "preco": 1040.9
+    },
+    {
+      "id": "q7",
+      "nome": "Kit de 5 Prateleiras em Madeira",
+      "descricao": "Conjunto de cinco prateleiras modernas, ideais para livros e decoração.",
+      "categorias": [
+        "Quarto",
+        "Organização"
+      ],
+      "imagens": [
+        "prateleiras.png"
+      ],
+      "preco": 120.9
+    },
+    {
+      "id": "q8",
+      "nome": "Espelho Orgânico com LED Prata",
+      "descricao": "Espelho decorativo com formato orgânico e iluminação LED embutida.",
+      "categorias": [
+        "Quarto",
+        "Espelhos"
+      ],
+      "imagens": [
+        "espelho-orgânico.png"
+      ],
+      "preco": 410.9
+    },
+    {
+      "id": "p1",
+      "nome": "Luminária de Chão Dupla Articulável",
+      "descricao": "Luminária de chão moderna com dois focos articuláveis.",
+      "categorias": [
+        "Iluminação",
+        "Decoração",
+        "Sala",
+        "Escritório"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 16.58.28.jpeg"
+      ],
+      "preco": 389.9
+    },
+    {
+      "id": "p2",
+      "nome": "Guarda-Roupa Infantil Branco e Madeira",
+      "descricao": "Guarda-roupa infantil espaçoso com portas e gavetas.",
+      "categorias": [
+        "Quarto Infantil",
+        "Móveis",
+        "Organização"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.07.16.jpeg"
+      ],
+      "preco": 2199
+    },
+    {
+      "id": "p3",
+      "nome": "Mesa Lateral Redonda Dourada Conjunto",
+      "descricao": "Conjunto de mesas laterais redondas com estrutura metálica dourada e tampo espelhado.",
+      "categorias": [
+        "Sala",
+        "Móveis",
+        "Decoração"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 17.28.08.jpeg"
+      ],
+      "preco": 749.9
+    },
+    {
+      "id": "o1",
+      "nome": "Organizador Multi-Uso",
+      "descricao": "Organizador multi-uso em plástico resistente.",
+      "categorias": [
+        "Escritório",
+        "Organização",
+        "Decoração"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 17.09.27.jpeg"
+      ],
+      "preco": 89.9
+    },
+    {
+      "id": "o2",
+      "nome": "Vaso com Suporte",
+      "descricao": "Vaso decorativo com suporte em madeira.",
+      "categorias": [
+        "Sala de Estar",
+        "Decoração",
+        "Plantas",
+        "Escritório"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 17.06.06.jpeg"
+      ],
+      "preco": 119.9
+    },
+    {
+      "id": "o3",
+      "nome": "Abajur de Parede",
+      "descricao": "Abajur de parede decorativo com luz suave.",
+      "categorias": [
+        "Quarto Infantil",
+        "Iluminação",
+        "Decoração"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 17.13.07.jpeg"
+      ],
+      "preco": 159.9
+    },
+    {
+      "id": "o4",
+      "nome": "Vaso Decorativo",
+      "descricao": "Vaso decorativo de design escultural com acabamento fosco.",
+      "categorias": [
+        "Sala de Estar",
+        "Decoração",
+        "Vasos"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 17.16.11.jpeg"
+      ],
+      "preco": 249.9
+    },
+    {
+      "id": "o5",
+      "nome": "Banqueta",
+      "descricao": "Banqueta estofada com base em madeira.",
+      "categorias": [
+        "Sala de Estar",
+        "Móveis",
+        "Decoração"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 17.29.26.jpeg"
+      ],
+      "preco": 329.9
+    },
+    {
+      "id": "q2",
+      "nome": "Espelho Infantil Nuvem e Estrelas",
+      "descricao": "Espelho de parede com moldura circular e apliques decorativos em formato de nuvem (dormindo) e estrelas.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Espelhos"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.13.08.jpeg"
+      ],
+      "preco": 189.9
+    },
+    {
+      "id": "q3",
+      "nome": "Kit 6 Quadros Decorativos Safari Baby",
+      "descricao": "Conjunto de 6 pôsteres com ilustrações fofas de animais do safari.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Quadros"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.27.41.jpeg"
+      ],
+      "preco": 249
+    },
+    {
+      "id": "q4",
+      "nome": "Régua de Crescimento Girafa com LED",
+      "descricao": "Régua de crescimento decorativa em formato de girafa, com apliques de urso e pato.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Luminárias"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.24.05.jpeg"
+      ],
+      "preco": 320.5
+    },
+    {
+      "id": "q5",
+      "nome": "Abajur Elefante Baby com Cúpula de Nuvens",
+      "descricao": "Abajur de mesa com base em formato de elefante cinza e cúpula decorada com estampa de nuvens e estrelas.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Luminárias"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.16.45.jpeg"
+      ],
+      "preco": 155
+    },
+    {
+      "id": "q6",
+      "nome": "Móbile de Berço Céu e Viagem em Crochê",
+      "descricao": "Móbile artesanal feito em crochê com tema de céu e viagem.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Berço"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.33.00.jpeg"
+      ],
+      "preco": 295
+    },
+    {
+      "id": "q7",
+      "nome": "Kit 4 Quadros Decorativos Flor de Lótus e Frases",
+      "descricao": "Conjunto de 4 quadros P&B (preto e branco) com tema botânico (flor de lótus), arte abstrata de rosto e frases inspiracionais.",
+      "categorias": [
+        "Decoração",
+        "Sala",
+        "Quadros",
+        "Escritório"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 17.08.28.jpeg"
+      ],
+      "preco": 380
+    },
+    {
+      "id": "q8",
+      "nome": "Cadeira Executiva em Couro e Madeira",
+      "descricao": "Cadeira de escritório ou home office ergonômica, de alto padrão.",
+      "categorias": [
+        "Escritório",
+        "Móveis",
+        "Cadeiras"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 17.03.26.jpeg"
+      ],
+      "preco": 2899
+    },
+    {
+      "id": "q9",
+      "nome": "Tapete Infantil Nuvem e Arco-Íris",
+      "descricao": "Tapete retangular macio com estampa de nuvem sorridente.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Tapetes"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.20.47.jpeg"
+      ],
+      "preco": 199.9
+    },
+    {
+      "id": "q10",
+      "nome": "Prendedor de Cortina Ursinho Amigurumi",
+      "descricao": "Prendedor de cortina artesanal em crochê (amigurumi) com formato de ursinho.",
+      "categorias": [
+        "Quarto Infantil",
+        "Decoração",
+        "Têxteis"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-04 at 15.37.35.jpeg"
+      ],
+      "preco": 75
+    },
+    {
+      "id": "q10",
+      "nome": "Luminária de Chão Dupla Flexível",
+      "descricao": "Luminária de chão em metal branco com dois focos de luz ajustáveis.",
+      "categorias": [
+        "Escritório",
+        "Quarto",
+        "Luminárias",
+        "Sala"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-11 at 16.58.28.jpeg"
+      ],
+      "preco": 349.9
+    },
+    {
+      "id": "q12",
+      "nome": "Prateleiras Rústicas Suspensas por Corda",
+      "descricao": "Conjunto de prateleiras flutuantes em madeira rústica, suspensas por cordas de sisal. ",
+      "categorias": [
+        "Banheiro",
+        "Decoração",
+        "Móveis"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.15 (3).jpeg"
+      ],
+      "preco": 220
+    },
+    {
+      "id": "q13",
+      "nome": "Armário de Banheiro com Espelho e Nicho",
+      "descricao": "Armário de banheiro com estrutura em madeira clara, nicho aberto na parte inferior e duas portas de espelho.",
+      "categorias": [
+        "Banheiro",
+        "Móveis",
+        "Espelhos"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.15.jpeg"
+      ],
+      "preco": 499.9
+    },
+    {
+      "id": "q14",
+      "nome": "Prateleira de Canto para Banheiro com LED",
+      "descricao": "Prateleira de canto com design moderno, dois ou mais níveis e iluminação em LED embutida",
+      "categorias": [
+        "Banheiro",
+        "Decoração",
+        "Organização"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.14 (1).jpeg"
+      ],
+      "preco": 165
+    },
+    {
+      "id": "q15",
+      "nome": "Kit Tapete para Banheiro em Espuma Memória",
+      "descricao": "Conjunto de tapetes para banheiro em espuma de memória (memory foam) de cor preta, com base antiderrapante",
+      "categorias": [
+        "Banheiro",
+        "Têxteis",
+        "Tapetes"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.15 (2).jpeg"
+      ],
+      "preco": 85
+    },
+    {
+      "id": "q16",
+      "nome": "Prateleira Organizadora de Bancada com Gaveta",
+      "descricao": "Organizador de bancada em dois níveis com estrutura metálica e bandejas de madeira",
+      "categorias": [
+        "Banheiro",
+        "Organização",
+        "Decoração"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.14 (2).jpeg"
+      ],
+      "preco": 110
+    },
+    {
+      "id": "q17",
+      "nome": "Espelho Redondo com Moldura de Madeira Escura",
+      "descricao": "Espelho de parede redondo com moldura escura e design moderno.",
+      "categorias": [
+        "Decoração",
+        "Espelhos",
+        "Hall"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.15 (1).jpeg"
+      ],
+      "preco": 260
+    },
+    {
+      "id": "q18",
+      "nome": "Toalheiro de Parede com Prateleira e Ganchos",
+      "descricao": "Toalheiro de parede em metal cinza chumbo com prateleira superior para toalhas dobradas.",
+      "categorias": [
+        "Banheiro",
+        "Organização",
+        "Acessórios"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.11.14.jpeg"
+      ],
+      "preco": 145
+    },
+    {
+      "id": "q20",
+      "nome": "Conjunto Sofá e Poltronas Área Externa Corda",
+      "descricao": "Conjunto de móveis para área externa/jardim em corda trançada verde-escura e estrutura em metal.",
+      "categorias": [
+        "Jardim",
+        "Móveis",
+        "Área Externa"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.20.37.jpeg"
+      ],
+      "preco": 6500
+    },
+    {
+      "id": "q21",
+      "nome": "Guarda-Sol Duplo Retangular Lateral",
+      "descricao": "Guarda-sol grande de braço lateral (ombrelone) com cobertura dupla retangular na cor verde.",
+      "categorias": [
+        "Jardim",
+        "Área Externa",
+        "Acessórios"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.20.38 (2).jpeg"
+      ],
+      "preco": 1990
+    },
+    {
+      "id": "q22",
+      "nome": "Mesa de Jantar Redonda e Cadeiras em Corda",
+      "descricao": "Conjunto de mesa de jantar redonda de madeira com centro giratório e 6 cadeiras com assento.",
+      "categorias": [
+        "Jardim",
+        "Móveis",
+        "Área Externa"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.20.38 (1).jpeg"
+      ],
+      "preco": 5200
+    },
+    {
+      "id": "q23",
+      "nome": "Fonte de Água Cascata de Pedra",
+      "descricao": "Fonte decorativa em formato de cascata de pedra, com várias quedas d'água e detalhes de musgo verde.",
+      "categorias": [
+        "Jardim",
+        "Decoração",
+        "Área Externa"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.20.37 (1).jpeg"
+      ],
+      "preco": 899.9
+    },
+    {
+      "id": "q24",
+      "nome": "Balanço de Jardim em Madeira e Ferro",
+      "descricao": "Balanço (namoradeira) de jardim para 2 ou 3 pessoas, com estrutura em madeira envernizada e assento/encosto em ferro trabalhado.",
+      "categorias": [
+        "Jardim",
+        "Móveis",
+        "Área Externa"
+      ],
+      "imagens": [
+        "WhatsApp Image 2025-12-16 at 14.20.38.jpeg"
+      ],
+      "preco": 1550
+    }
+  ]
+}

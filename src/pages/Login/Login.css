@@ -1,0 +1,22 @@
+body {
+  font-family: var(--fontComplementar);
+  /* background-color: var(--corBackground); */
+}
+
+.card {
+  max-width: 500px;
+  margin: 0 1rem;
+}
+
+.add {
+    color: #000000;
+    cursor: pointer;
+    width: 25px;
+}
+
+.logout {
+    color: #000000;
+    cursor: pointer;
+    width: 40px;
+    background-color: var(--corPrincipal);
+}

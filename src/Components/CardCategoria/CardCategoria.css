@@ -1,0 +1,78 @@
+/* card-categoria */
+.cards-categoria {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    margin-bottom: auto;
+}
+
+.cards-categoria img {
+    border-radius: 20px;
+}
+
+.linha1,
+.linha2,
+.linha3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.area,
+.cozinha,
+.banheiro,
+.quarto {
+    margin-right: 10px;
+}
+
+
+.quarto {
+    width: 833px;
+    aspect-ratio: 2.19;
+}
+
+.quarto-inf {
+    width: 588px;
+    aspect-ratio: 1.55;
+}
+
+.banheiro {
+    width: 342px;
+    aspect-ratio: 0.91;
+}
+
+.cozinha {
+    width: 342px;
+    aspect-ratio: 0.92;
+}
+
+.sala {
+    width: 704px;
+    aspect-ratio: 1.90;
+}
+
+.area {
+    width: 587px;
+    aspect-ratio: 1.36;
+}
+
+.escrit {
+    width: 832px;
+    aspect-ratio: 1.93;
+}
+
+.escrit img,
+.area img,
+.sala img,
+.cozinha img,
+.banheiro img,
+.quarto-inf img,
+.quarto img {
+    width: 100%;
+}
+
+img {
+    cursor: pointer;
+}

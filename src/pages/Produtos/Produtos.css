@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corBackground: #623820;
+    --corPrincipal: #657047;
+    --alturaRodape: 87px;
+    --font-family: "Be Vietnam Pro", sans-serif;
+    --fontComplementar: "Abel", sans-serif;
+}
+
+.acessivel {
+    position: absolute;
+    /* Remove do fluxo do layout */
+    width: 1px;
+    /* Largura mínima */
+    height: 1px;
+    /* Altura mínima */
+    overflow: hidden;
+    /* Oculta qualquer conteúdo extra */
+    clip-path: inset(50%);
+    /* Recorta todo o conteúdo */
+    white-space: nowrap;
+    /* Evita quebras de linha */
+    border: 0;
+    /* Sem borda */
+}
+
+body {
+    background-color: #FEF8E9;
+}
+
+#sombra {
+    width: 100vw;
+    height: 200px;
+    background-color: #FFD18865;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+    top: -210px;
+    overflow-y: hidden;
+    transition: .5s;
+}
+
+.container-laardecor {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* CARDS */
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.titulo span {
+    font-size: 48px;
+    font-family: "Limelight";
+    color: #623820;
+}
+
+.titulo hr {
+    background-color: var(--corBackground);
+    width: 200px;
+    height: 4px;
+    border: none;   
+    border-radius: 2px;
+    margin: 2px;
+    box-shadow: 0 4px 4px 2px #00000025;
+}
+
+
+/*ÁREA DOS CARDS*/
+.cards-produto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+/*CARD (DESKTOP: 3 POR LINHA)*/
+.card-produto {
+    width: 30%;
+    max-width: 350px;
+    /* height: 590px; */
+    background-color: #657047;
+    border-radius: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    box-shadow: 0 4px 4px 2px #00000025;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.card-produto img {
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    height: 350px;
+}
+
+.card-produto p {
+    padding: 10px;  
+    font-size: 20px;
+    font-family: "Be Vietnam Pro";
+    margin: 25px;
+    color: white;
+
+}
+
+.card-produto .valor {
+    font-family: "Be Vietnam Pro";
+    background-color: #FACC14;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 5px;
+    gap: 3%;
+    width: 175px;
+    margin-inline: 80px;
+} 
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    transition: transform 0.5s ease-in-out,
+        filter 0.5s ease-in-out;
+}
+
+.whatsapp img {
+    width: 80px;
+    filter: drop-shadow(0 5px 1px #00000025);
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 7px 2px #00000025);
+}
+
+/* .algo{ */
+    
+
+/* RODAPE */
+footer {
+    width: 100%;
+    height: var(--alturaRodape);
+    background-color: var(--corPrincipal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.conteudo-footer {
+    font-family: "Abel", system-ui;
+    align-items: center;
+    color: #FACC14;
+    font-size: 25px;
+    margin-left: 1px;
+}
+
+/* EMAIL */
+.icone-email {
+    width: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+footer p {
+    font-family: "Abel", system-ui;
+    margin-left: 5px;
+    color: #FACC14;
+    font-size: 30px;
+}
+
+
+/*MEDIASS*/
+/* @media screen and (max-width: 768px) {
+    .box-busca {
+        position: absolute;
+        overflow-y: hidden;
+        top: -100px;
+        z-index: 2;
+        right: 30px;
+        transition: .5s;
+        width: 80%;
+        right: 50px;
+    }
+
+    .menu-barras {
+        display: block;
+        right: 0;
+        fill: #FACC14;
+    }
+
+
+    .icone-voltar {
+        display: none;
+    }
+
+
+} */
+
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media (max-width: 1200px) {
+
+    .titulo span {
+        font-size: 40px;
+    }
+
+    .card-produto {
+        width: 46%;
+        /* 2 por linha */
+        /* height: 525px; */
+        margin-bottom: 20px;
+    }
+
+    .card-produto p {
+        font-size: 23px;
+        margin: 20px;
+    }
+}
+
+
+
+@media (max-width: 770px) {
+
+    .titulo {
+        margin: 60px auto;
+    }
+
+    .titulo span {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .titulo hr {
+        width: 295px;
+    }
+
+    .card-produto {
+        width: 90%;
+        /* 1 por linha */
+
+    }
+
+    .card-produto p {
+        font-size: 23px;
+        margin: 15px;
+    }
+
+    /* .card-produto .valor {
+        font-size: 23px;
+    } */
+}
+
+
+@media (max-width: 380px) {
+
+    .titulo {
+        margin: 60px auto;
+    }
+
+    .titulo span {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .titulo hr {
+        width: 295px;
+    }
+
+    .card-produto {
+        width: 90%;
+        /* 1 por linha */
+
+    }
+
+    .card-produto p {
+        font-size: 24px;
+        margin: 23px;
+    }
+
+    /* .card-produto .valor {
+        font-size: 23px;
+        padding: 5px;
+    } */
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .whatsapp img {
+        display: none;
+    }
+
+    .menu-barras {
+        display: block;
+        right: 25px;
+        fill: #FACC14;
+    }
+
+}

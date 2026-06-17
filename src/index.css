@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --corBackground: #623820;
+    --corPrincipal: #657047;
+    --alturaRodape: 87px;
+    --font-family: "Be Vietnam Pro", sans-serif;
+    --fontComplementar: "Abel", sans-serif;
+}
+
+.acessivel {
+    position: absolute;
+    /* Remove do fluxo do layout */
+    width: 1px;
+    /* Largura mínima */
+    height: 1px;
+    /* Altura mínima */
+    overflow: hidden;
+    /* Oculta qualquer conteúdo extra */
+    clip-path: inset(50%);
+    /* Recorta todo o conteúdo */
+    white-space: nowrap;
+    /* Evita quebras de linha */
+    border: 0;
+    /* Sem borda */
+}
+
+body {
+    background-color: #FEF8E9;
+}
