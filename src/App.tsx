@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home"
 import Cadastro from "./pages/Cadastro/Cadastro"
 import RotaProtegida from "./Components/RotaProtegida/RotaProtegida"
 import Login from "./pages/Login/Login"
+import ChatAssistente from "./Components/ChatAssistente/ChatAssistente"
 
 
 function App() {
@@ -21,8 +22,10 @@ function App() {
         <Route path="/produtos/:categoria" element={<Produtos />} />
         <Route path="/produtos/pesquisa" element={<Produtos />} />
       </Routes>
+      <ChatAssistente />
     </BrowserRouter>
   )
 }
 
 export default App
+
